@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <title>Data Pasien</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WIW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.php" class="nav-link px-2 text-white">Pasien</a></li>
+          <li><a href="form.php" class="nav-link px-2 text-primary">TITLE Data</a></li>
+        </ul>
+    </nav>
+
+    <div class="container mt-4">
+        <!-- Form Tambah Data Pasien -->
+        <div class="card">
+            <div class="card-header bg-dark text-center">
+                <h4 class="text-primary">TITLE Data Pasien</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <!-- <div class='form-group'>
+                        <label for='nik'>NIK</label>
+                        <input type='text' class='form-control' id='nik' name='nik' value='$nik' required />
+                    </div>
+                    <div class='form-group'>
+                        <label for='nama'>Nama</label>
+                        <input type='text' class='form-control' id='nama' name='nama' value='$nama' required />
+                    </div>
+                    <div class='form-group'>
+                        <label for='tempat'>Tempat</label>
+                        <input type='text' class='form-control' id='tempat' name='tempat' value='$tempat' required />
+                    </div>
+                    <div class='form-group'>
+                        <label for='tgl_lahir'>Tanggal Lahir</label>
+                        <input type='date' class='form-control' id='tgl_lahir' name='tgl_lahir' value='$tl' required />
+                    </div>
+                    <div class='form-group'>
+                        <label for='gender'>Gender</label>
+                        <select class='form-control' id='gender' name='gender' required>
+                            <option value='Laki-laki' " . ($gender == 'Laki-laki' ? 'selected' : '') . ">Laki-laki</option>
+                            <option value='Perempuan' " . ($gender == 'Perempuan' ? 'selected' : '') . ">Perempuan</option>
+                        </select>
+                    </div>
+                    <div class='form-group'>
+                        <label for='email'>Email</label>
+                        <input type='email' class='form-control' id='email' name='email' value='$email' required />
+                    </div>
+                    <div class='form-group'>
+                        <label for='Telp'>Telp</label>
+                        <input type='tel' class='form-control' id='Telp' name='telp' value='$telp' required />
+                    </div>
+                        
+                    <input type='text' class='form-control' id='id' name='id' value='$id' hidden />
+                    <button type='submit' class='btn btn-primary' name='$process'>$title</button> -->
+                    DATA_FORM
+                </form>
+            </div>
+        </div>
+    </div>    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
